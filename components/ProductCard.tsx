@@ -20,7 +20,7 @@ interface Product {
   title: string;
   updated_at: string;
   label: string;
-  source: 'Lidl' | 'Marketin' | 'Mymarkket';
+  source: 'Lidl' | 'Marketin' | 'Mymarket';
 }
 
 export const ProductCard = () => {
