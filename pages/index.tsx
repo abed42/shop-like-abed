@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { Carousel, Footer, Header, Navbar, ProductCard } from '../components';
-import Slider from '../components/Slider';
 
 const images = [
   'https://images.unsplash.com/photo-1624943233648-9cf5cc4ee471?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=60',
@@ -32,10 +31,7 @@ export default function Home() {
       <Navbar />
       {/* <Carousel /> */}
       <div className="flex w-full">
-        {/* <Slider slides={images} size="large" slideInterval={6} /> */}
         <div className=" flex space-x-5 px-28 py-20  ">
-          {/* <div className="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 ..."></div> */}
-
           <img
             src={images[imgArray]}
             alt="imgs"
